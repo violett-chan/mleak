@@ -1,0 +1,17 @@
+﻿<Window x:Class="mleak.LoadingWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mleak"
+        mc:Ignorable="d"
+        Title="LoadingWindow" Height="450" Width="450" Background="Transparent" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" ContentRendered="Window_ContentRendered">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0" ResizeBorderThickness="{x:Static SystemParameters.WindowResizeBorderThickness}" NonClientFrameEdges="None" GlassFrameThickness="0,0,0,0" CornerRadius="30,30,30,30"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Border CornerRadius="30,30,30,30">
+            <Image Source="/1716718554440p8ukswyl.png" />
+        </Border>
+    </Grid>
+</Window>

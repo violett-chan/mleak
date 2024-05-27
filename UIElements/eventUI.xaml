@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="mleak.UIElements.eventUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:mleak.UIElements"
+             mc:Ignorable="d">
+    <Grid>
+        <Border Width="50" Height="50" CornerRadius="25" HorizontalAlignment="Left" VerticalAlignment="Center" Background="White" Margin="10">
+            <Border.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="0" BlurRadius="40"/>
+            </Border.Effect>
+            <Label x:Name="firstNode" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF404040" FontFamily="Calibri Light" FontSize="24"/>
+        </Border>
+        <Label x:Name="weightValue" Foreground="White" FontFamily="Candara Light" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Border Width="50" Height="50" CornerRadius="25" HorizontalAlignment="Right" VerticalAlignment="Center" Background="White" Margin="10">
+            <Border.Effect>
+                <DropShadowEffect Color="White" ShadowDepth="0" BlurRadius="40"/>
+            </Border.Effect>
+            <Label x:Name="secondNode" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="#FF404040" FontFamily="Calibri Light" FontSize="24"/>
+        </Border>
+    </Grid>
+</UserControl>

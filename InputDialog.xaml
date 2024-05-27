@@ -1,0 +1,15 @@
+﻿<Window x:Class="mleak.InputDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mleak"
+        mc:Ignorable="d"
+        Title="InputDialog" Height="100" Width="400" Background="Transparent" WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterOwner" KeyDown="Window_KeyDown">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0" ResizeBorderThickness="{x:Static SystemParameters.WindowResizeBorderThickness}" NonClientFrameEdges="None" GlassFrameThickness="0,0,0,0" CornerRadius="30,30,30,30"/>
+    </WindowChrome.WindowChrome>
+    <Grid>
+        <Label x:Name="inputTextBox" FontSize="72" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Calibri Light"/>
+    </Grid>
+</Window>
